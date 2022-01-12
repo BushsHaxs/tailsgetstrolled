@@ -54,7 +54,8 @@ jobs:
           haxelib install newgrounds
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib install linc_luajit
-          haxelib install actuate
+          haxelib install actuate                                                                                             
+          haxelib install hxvm-luajit
           haxelib list
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
@@ -101,7 +102,8 @@ jobs:
           haxelib install newgrounds
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib install linc_luajit
-          haxelib install actuate
+          haxelib install actuate                                                                                             
+          haxelib install hxvm-luajit
           haxelib list
         shell: cmd
       - name: Create Version Tag
@@ -149,7 +151,8 @@ jobs:
           haxelib install newgrounds
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib install linc_luajit
-          haxelib install actuate
+          haxelib install actuate                                                                                             
+          haxelib install hxvm-luajit
           haxelib list
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
