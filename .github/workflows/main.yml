@@ -55,7 +55,7 @@ jobs:
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib install linc_luajit
           haxelib install actuate                                                                                             
-          haxelib install hxvm-luajit
+          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
           haxelib list
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
@@ -103,7 +103,7 @@ jobs:
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib install linc_luajit
           haxelib install actuate                                                                                             
-          haxelib install hxvm-luajit
+          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
           haxelib list
         shell: cmd
       - name: Create Version Tag
@@ -152,7 +152,7 @@ jobs:
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib install linc_luajit
           haxelib install actuate                                                                                             
-          haxelib install hxvm-luajit
+          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
           haxelib list
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
